@@ -18,3 +18,4 @@
 |          ```ops.mod.mod(a, b)```          |        a를 b로 나머지 연산합니다.        |
 |          ```ops.fact.fact(x)```           |         x를 팩토리얼 연산합니다.         |
 |      ```ops.percent.percent(a, b)```      |          a의 b%를 구합니다.          |
+|        ```ops.complex.cal_tip(price, tip_rate, num_people: int)```        |    인원 수에 맞는 tip 금액을 계산합니다.     |

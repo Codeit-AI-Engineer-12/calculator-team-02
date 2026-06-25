@@ -11,6 +11,7 @@ from ops.subtract import subtract
 from ops.mod import mod
 from ops.fact import fact
 from ops.percent import percent
+from ops.complex.cal_tip import cal_tip
 
 operations = {
     "add": add,
@@ -25,5 +26,6 @@ operations = {
     "floor_divide": floor_divide,
     "mod": mod,
     "fact": fact,
-    "percent": percent
+    "percent": percent,
+    "cal_tip": cal_tip
 }
