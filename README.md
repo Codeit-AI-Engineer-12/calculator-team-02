@@ -10,5 +10,6 @@
 | ```ops.multiply.multiply(a, b)``` |                                                |
 |   ```ops.divide.divide(a, b)```   |                                                |
 |    ```ops.power.power(a, b)```    |         밑수(a)를 지수(b)만큼 거듭제곱한 값을 반환합니다          |
+| ```ops.minimum.minimum(a, b)```   | 두 자연수 중 더 작은 값을 반환합니다. |
 |     ```ops.root.root(a, b)```     |               a를 b로 거듭제곱근 연산합니다.               |
-|       ```ops.avg.avg(a, b)```        |               a와 b의 평균값을 연산합니다.                |
+|       ```ops.avg.avg(a, b)```     |               a와 b의 평균값을 연산합니다.                |
