@@ -8,6 +8,7 @@ from ops.multiply import multiply
 from ops.power import power
 from ops.root import root
 from ops.subtract import subtract
+from ops.mod import mod
 
 operations = {
     "add": add,
@@ -20,4 +21,5 @@ operations = {
     "root": root,
     "avg": avg,
     "floor_divide": floor_divide,
+    "mod": mod
 }
