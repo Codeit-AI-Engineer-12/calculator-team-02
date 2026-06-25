@@ -1,6 +1,7 @@
 from ops.add import add
 from ops.avg import avg
 from ops.divide import divide
+from ops.floor_divide import floor_divide
 from ops.max import max
 from ops.minimum import minimum
 from ops.multiply import multiply
@@ -18,4 +19,5 @@ operations = {
     "min": minimum,
     "root": root,
     "avg": avg,
+    "floor_divide": floor_divide,
 }
