@@ -8,6 +8,10 @@ from ops.multiply import multiply
 from ops.power import power
 from ops.root import root
 from ops.subtract import subtract
+from ops.mod import mod
+from ops.fact import fact
+from ops.percent import percent
+from ops.complex.cal_tip import cal_tip
 
 operations = {
     "add": add,
@@ -20,4 +24,8 @@ operations = {
     "root": root,
     "avg": avg,
     "floor_divide": floor_divide,
+    "mod": mod,
+    "fact": fact,
+    "percent": percent,
+    "cal_tip": cal_tip
 }
