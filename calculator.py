@@ -1,12 +1,12 @@
 from ops.add import add
-from ops.subtract import subtract
-from ops.multiply import multiply
-from ops.divide import divide
-from ops.power import power
-from ops.floor_divide import floor_divide
 from ops.avg import avg
+from ops.divide import divide
+from ops.max import max
 from ops.minimum import minimum
+from ops.multiply import multiply
+from ops.power import power
 from ops.root import root
+from ops.subtract import subtract
 
 operations = {
     "add": add,
@@ -14,8 +14,8 @@ operations = {
     "multiply": multiply,
     "divide": divide,
     "power": power,
-    "floor_divide": floor_divide,
-    "avg": avg,
-    "minimum": minimum,
+    "max": max,
+    "min": minimum,
     "root": root,
+    "avg": avg,
 }
