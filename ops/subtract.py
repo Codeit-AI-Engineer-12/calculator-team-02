@@ -1,9 +1,13 @@
-def subtract(a, b):
+def subtract(a: int | float, b: int | float) -> int | float:
     """
     a를 b로 뺍니다.
-    :param a: arg1
-    :param b: arg2
-    :return: a - b
+
+    Args:
+        a: 첫번째 숫자 (int or float)
+        b: 두번째 숫자 (int or float)
+
+    Returns:
+        a에서 b를 뺀 연산 결과
     """
     try:
         return a - b

@@ -1,9 +1,13 @@
-def avg(a, b):
+def avg(a: int | float, b: int | float) -> float:
     """
     a와 b의 평균값을 계산합니다.
-    :param a: arg1
-    :param b: arg2
-    :return: arg1과 arg2의 평균값
+
+    Args:
+        a: 첫번째 숫자
+        b: 두번째 숫자
+
+    Returns:
+        a와 b의 평균값
     """
     try:
         return (a + b) / 2
