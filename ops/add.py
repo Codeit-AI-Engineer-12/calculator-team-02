@@ -6,10 +6,6 @@ def add(a, b):
         a (int): 첫 번째 자연수
         b (int): 두 번째 자연수
 
-    Raises:
-        TypeError: _description_
-        ValueError: _description_
-
     Returns:
         int: a와 b를 더한 합계
     """
