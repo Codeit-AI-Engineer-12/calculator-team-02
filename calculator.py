@@ -9,6 +9,7 @@ from ops.power import power
 from ops.root import root
 from ops.subtract import subtract
 from ops.mod import mod
+from ops.fact import fact
 
 operations = {
     "add": add,
@@ -21,5 +22,6 @@ operations = {
     "root": root,
     "avg": avg,
     "floor_divide": floor_divide,
-    "mod": mod
+    "mod": mod,
+    "fact": fact
 }
