@@ -10,6 +10,7 @@ from ops.root import root
 from ops.subtract import subtract
 from ops.mod import mod
 from ops.fact import fact
+from ops.percent import percent
 
 operations = {
     "add": add,
@@ -23,5 +24,6 @@ operations = {
     "avg": avg,
     "floor_divide": floor_divide,
     "mod": mod,
-    "fact": fact
+    "fact": fact,
+    "percent": percent
 }

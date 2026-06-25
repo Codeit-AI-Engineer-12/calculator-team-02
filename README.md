@@ -17,3 +17,4 @@
 | ```ops.floor_divide.floor_divide(a, b)``` |        정수 나눗셈의 몫을 연산한다.        |
 |          ```ops.mod.mod(a, b)```          |        a를 b로 나머지 연산합니다.        |
 |          ```ops.fact.fact(x)```           |         x를 팩토리얼 연산합니다.         |
+|      ```ops.percent.percent(a, b)```      |          a의 b%를 구합니다.          |
